@@ -1,0 +1,179 @@
+html,body{
+   margin:0;
+   padding: 0;
+   height: 100%;
+   width:100%;
+}
+
+nav{
+  padding: 20px;
+  text-align: center;
+}
+nav img{
+    max-width: 100%;
+    height: auto;
+}
+.nav-ul{
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #57375D;
+  padding:7px; 
+}
+.nav-ul .nav-li{
+    text-align: center;
+    list-style: none;
+    margin:0 23px;
+    color: white;
+    margin: 0 10px;  
+}
+.nav-ul .nav-li a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  text-shadow: 15px 15px  10px white;
+}
+
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for smaller screens (e.g., mobile) */
+  nav img {
+    max-width: 80%;
+  }
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+  background-color: #F2F1EB;
+  
+
+
+}
+.text{
+  flex: 1; 
+}
+div h1{
+  font-size: 5rem;
+  font-weight: bolder;
+  
+}
+.container .text h1 span{
+  color:#57375D;
+  box-shadow: 1px 3px 5px #57375D;
+}
+
+.btn{
+  margin: 5% 3% 5% 0;
+}
+@media only screen and (max-width: 670px) {
+  div h1{
+    font-size:4rem;
+  }
+}
+
+
+.img2{
+  flex: 0; 
+  max-width: 400px; 
+  margin:0% auto;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  box-sizing: border-box;
+}
+.im2{
+  
+  border-radius: 500px;
+  width:630px; 
+  height:650px;
+}
+
+
+@media only screen and (max-width: 670px) {
+  .container{
+    flex-direction: column;
+  }
+  .im2{
+    width: 377px;
+    height: 389px;
+  }
+}
+button a{
+text-decoration: none;
+color: white;
+
+}
+button{
+  
+  background-color: #57375D;
+}
+.search{
+  margin-top:50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.search h1{
+  font-size: 28px;
+}
+.search-button{
+  color: white;
+}
+input{
+  
+  width: 543px;
+  border-radius: 5px;
+}
+#features{
+  padding:5% 7%;
+}
+.feature-box{
+  padding:5% 7%;
+  text-align: center;
+
+}
+
+
+.about-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/*Footer styles*/
+
+footer{
+  color:white;
+  background-color: black;
+  padding: 30px 0;
+  text-align: center;
+}
+.footer .footer-h2{
+  margin-bottom: 20px;
+      font-size: 24px;
+}
+.footer-p{
+  font-size: 16px;
+      margin-bottom: 10px;
+}
+hr{
+  color:white;
+}
+
+.footer-ul{
+  padding:0;
+  margin: 0;
+  display: flex;
+  text-align: center;
+  margin-left: 100px;
+}
+.footer-ul .footer-li{
+  color: white;
+  margin-right: 45px; 
+  list-style: none;
+}

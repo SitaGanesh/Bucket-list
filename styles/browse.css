@@ -1,0 +1,75 @@
+/*browse course styles*/
+
+nav{
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  nav img{
+      max-width: 100%;
+      height: auto;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #57375D;
+   padding:7px; 
+      
+  }
+  ul li{
+      text-align: center;
+      list-style: none;
+      margin:0 23px;
+  }
+  li{
+    margin: 0 10px;
+  }
+  ul li a{
+    text-decoration: none;
+  color:azure;
+  text-shadow: 0 0 0 white;
+  }
+  @media only screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens (e.g., mobile) */
+    nav img {
+      max-width: 80%;
+    }
+  }
+.browse-heading{
+    display: block;
+}
+.browse-heading form h1{
+    display:grid;
+}
+.browse-heading h1{
+    margin-right:40px;
+}
+.browse-heading form{
+    margin-top:60px;
+}
+.browse-heading form input{
+    width:250px;
+}
+.browse-heading p{
+text-align: center;}
+  
+img{
+    height: 210px;
+    width: 400px;
+}
+.row{
+    padding:5% 7%;   
+}
+.container .card .card-img-top{
+  width: 100%;
+  height: auto;
+}
+.btn-group a{
+  text-decoration: none;
+  color:black;
+}
